@@ -1,0 +1,40 @@
+body{
+	font-family: roboto !important;
+}
+
+.post{
+	width: 33.3333%;
+	float: left;
+    min-height: 200px;
+    color: #FFFFFF;
+    display: table;
+    transition: background .4s ease-in-out;
+}
+
+.post .inner {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 15%;
+}
+
+.title{
+	font-size: 1.75em;
+	font-weight: 300;
+    letter-spacing: 3px;
+    color:white;
+}
+
+a:hover{
+	text-decoration: none !important;
+}
+
+.remove{
+	padding: 10px 19px;
+    font-size: 17px;
+    line-height: 1.471;
+    color: #fff;
+    background-color: #e74c3c;
+    border:none;
+    width: 100%;
+    text-align: center;
+}
